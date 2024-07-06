@@ -1,0 +1,79 @@
+.sendMail{
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    background-color: #f3f3f3; 
+    width: 40%;
+    height: 75%;
+    max-width: 700px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f5f5f5;
+    box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.24);
+}
+
+.sendMail-header{
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #808080;
+}
+
+.sendMail-header > .icons > .icon{
+    font-size: 19px !important;
+    padding: 3px;
+}
+
+.sendMail-header > h3{
+    color: #041e49;
+    font-size: 14px;
+}
+
+.sendMail-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.sendMail-send{
+    background-color: #3079ed !important;
+    text-transform: capitalize !important;
+    margin: 10px !important;
+    margin-left: 15px !important;
+}
+
+.sendMail-close{
+    cursor: pointer;
+}
+
+.sendMail > form{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.sendMail > form > input{
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #f5f5f5;
+    outline: none;
+}
+
+.sendMail-message{
+    flex: 1;
+}
+
+.error-message{
+    background-color: #fff;
+    color: #808080;
+    text-align: right;
+    padding: 2px;
+}
+
+
+

@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.header_left > img {
+    object-fit: contain;
+    height: 60px;
+    margin-left: -5px;
+}
+
+.header_middle{
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 15px;
+    /* margin-left: -90px; */
+}
+
+.header_middle > .MuiButtonBase-root > .MuiSvgIcon-root{
+    color: #808080;
+}
+
+.header_middle > input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    outline: none;
+}
+
+.header_right{
+    display: flex;
+    padding-right: 25px;
+}
+
+.header_right > .appIcon{
+    margin-right: 6px;
+}
